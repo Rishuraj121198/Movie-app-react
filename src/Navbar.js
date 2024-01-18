@@ -64,7 +64,7 @@ function Navbar(props) {
                  src = "https://cdn-icons-png.flaticon.com/128/891/891462.png"/>
                     </div>
 
-            <div className={NavStyle.cartCount}></div>
+            <div className={NavStyle.cartCount}>{cartCount}</div>
             </div>
         
       </div>
